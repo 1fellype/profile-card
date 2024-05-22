@@ -4,52 +4,51 @@
     border-radius: 4px;
     padding-bottom: 20px;
     background: white;
-  }
-  
-  .gradiant {
+}
+
+.gradiant {
     background-image: linear-gradient(#91baff, #205fff);
     height: 125px;
     border-radius: 4px 4px 0px 0px;
-  }
-  
-  .profile-down {
+}
+
+.profile-down {
     display: flex; /* Allow elements to align horizontally */
     flex-direction: column; /* Stack elements vertically */
     align-items: center; /* Center elements horizontally within .profile-down */
     justify-content: space-between; /* Distribute elements evenly with some space between */
     padding: 20px 0; /* Add top and bottom padding for better spacing */
-  }
-  
-  .profile-down img {
+}
+
+.profile-down img {
     width: 150px;
     border-radius: 100px;
-    margin-top: -50px; /* Adjust to position the image within the gradient */
+    margin-top: -75px;
     padding: 5px;
     background: white;
-  }
-  
-  .profile-info {
-    text-align: center;
-  }
-  
-  .profile-title {
+}
+
+.profile-title {
     font-size: 36px;
     font-weight: 600;
-  }
-  
-  .profile-description {
+}
+
+.profile-description {
+    padding: 20px 40px;
     font-size: 16px;
-  }
-  
-  .profile-button {
+}
+
+
+.profile-button {
     font-size: 16px;
     background: #2b5dff;
-    padding: 8px 20px;
+    margin: 10px 100px;
+    padding-top: 8px;
+    padding-bottom: 10px;
     border-radius: 40px;
-  }
-  
-  .profile-button a {
+}
+
+a {
     text-decoration: none;
     color: white;
-  }
-  
+}
